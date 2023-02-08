@@ -15,13 +15,8 @@
             {{ product.title }}
 
 
-            {% if product.stock %}
-            <span class="text-success"> Disponible</span>
+            <span class="text-success"> $ {{product.price }} </span>
 
-            {% else %}
-            <span class="text-danger">No disponible</span>
-
-            {% endif %}
 
 
         </li>
